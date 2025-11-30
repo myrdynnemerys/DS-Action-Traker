@@ -1,0 +1,30 @@
+{
+    "id": "ds-action-traker",
+    "name": "ds-action-traker", 
+    "title": "DS Action Tracker",
+    "description": "Token-attached action tracker for PF2e",
+    "version": "0.0.1",
+    "authors": [
+        {
+            "name": "Matt and Deep"
+        }
+    ],
+    "compatibility": {
+        "minimum": "13",
+        "verified": "13"
+    },
+    "esmodules": [
+        "main.mjs"
+    ],
+    "styles": [
+        "styles.css"
+    ],
+    "relationships": {
+        "systems": [
+            {
+                "id": "pf2e", 
+                "type": "system"
+            }
+        ]
+    }
+}

@@ -1,0 +1,58 @@
+.ds-action-tracker {
+  background-color: rgba(0, 0, 0, 0.95);
+  color: white;
+  border: 1px solid #00ff00;
+  border-radius: 4px;
+  padding: 3px 6px;
+  font-family: Arial, sans-serif;
+  font-size: 11px;
+  font-weight: bold;
+  pointer-events: auto;
+  position: fixed;
+  z-index: 10000;
+  min-width: 120px;
+  text-align: center;
+  box-shadow: 0 0 10px red;
+  text-shadow: 1px 1px 1px black;
+  line-height: 1.2;
+}
+
+.tracker-header {
+  font-weight: bold;
+  border-bottom: 1px solid #444;
+  margin-bottom: 2px;
+  padding-bottom: 1px;
+  font-size: 10px;
+}
+
+.tracker-body {
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.tracker-body div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tracker-footer {
+  margin-top: 3px;
+  padding-top: 2px;
+  border-top: 1px solid #444;
+}
+
+.tracker-footer button {
+  background: #333;
+  color: white;
+  border: 1px solid #555;
+  border-radius: 2px;
+  padding: 1px 6px;
+  cursor: pointer;
+  font-size: 9px;
+}
+
+.tracker-footer button:hover {
+  background: #444;
+}
